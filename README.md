@@ -73,4 +73,6 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 	
 	We later schedule them using Add Trigger
 
+![image](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/c8942210-dd84-40d2-9eb0-41dfc841cbc6)
+
 ![image](https://github.com/Pavan-1997/Azure_Data-Factory/assets/32020205/636bff12-632f-46ee-99cf-75efb0d4969c)
