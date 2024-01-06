@@ -16,25 +16,24 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 
 - ### Integration Runtimes - 
 	
-○ We require computation to Move data for On-prem we have Self hosted Integration Runtime or if cloud we require Auto resolve (default we create ADF) Azure Integration Runtime or SSIS Integration Runtime (To lift and shift of SSIS project from on-prem to cloud)
-
-○ Integration Runtime provide compute infra to DF to connect diff network and execute the activities
+	- We require computation to Move data for On-prem we have Self hosted Integration Runtime or if cloud we require Auto resolve (default we create ADF) Azure Integration Runtime or SSIS Integration Runtime (To lift and shift of SSIS project from on-prem to cloud)
+	- Integration Runtime provide compute infra to DF to connect diff network and execute the activities
 		
-	- Linked Services -  
+- ### Linked Services -  
 
-		○ Establishing connections to the data sources for every Integration Runtime by storing connection information
+  	- Establishing connections to the data sources for every Integration Runtime by storing connection information
 	
-	- Data Sets -
-	
-		○ Preparation of data based on activity 
-		
-	- Activities - 
-	
-		○ Copy Data Activity , Delete 
-		
-	- Pipelines -
+- ### Data Sets -
 
-		○ Collection of activities and designing of flow
+	- Preparation of data based on activity 
+		
+- ### Activities - 
+	
+	- Copy Data Activity , Delete 
+		
+- ### Pipelines -
+
+	- Collection of activities and designing of flow
 	
 	- Triggers - 
 
