@@ -40,3 +40,8 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 	- Scheduling of pipelines to run daily at specific time
 	
  	- There are 3 types - Scheduling Trigger, Event-Based Trigger, Tumbling Window Trigger 
+
+
+## Implementation to Check :
+
+
