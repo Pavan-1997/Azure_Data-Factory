@@ -14,7 +14,7 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 ## Components of ADF :
 
 
-- Integration Runtimes - 
+- ### Integration Runtimes - 
 	
 ○ We require computation to Move data for On-prem we have Self hosted Integration Runtime or if cloud we require Auto resolve (default we create ADF) Azure Integration Runtime or SSIS Integration Runtime (To lift and shift of SSIS project from on-prem to cloud)
 
