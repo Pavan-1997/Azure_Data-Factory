@@ -45,3 +45,30 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 ## Implementation to Check :
 
 
+1. Go to portal.azure.com
+
+
+2. Search and open Data Factory ->
+
+Select your Subscription
+
+Select your Resource group
+
+Give name 
+
+Click on Review + Create
+
+
+3. Click on Launch studio 
+
+Go to Manage -> Connections -> Integration runtimes -> (By default Auto-Resolve Integration runtime is created which can't be customized)
+
+Click on New -> Azure, Self-Hosted -> Click on Continue -> (Here you can either use Azure or Self-Hosted)
+
+We create Linked services for every Integration Runtime
+
+We create Datasets for every Linked Service by going to Author -> Datasets -> 3 dots -> Select the data type with Linked service associated with it 
+
+We then create pipelines on the same way 
+
+We later schedule them using Add Trigger
