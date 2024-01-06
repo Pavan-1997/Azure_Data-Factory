@@ -1,11 +1,11 @@
 # Azure_Data-Factory
 
-ETL TOOLS - AZURE DATA FACTORY (NO-CODE) , AZURE DATA BRUCKS (CODE)
+ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 
-	• ADF - Is a ETL tools available in AZ 
-	• Before this we were having MSBI tools (SSIS - ETL like ADF, SSRS - Reports like PowerBI , SSAS -Analysis)  
-	• SSIS is local or on-prem 
-	• ADF is cloud based ETL tool
+• ADF - Is an ETL tools available in AZ 
+• Before this we had MSBI tools (SSIS - ETL like ADF, SSRS - Reports like PowerBI , SSAS -Analysis)  
+• SSIS is local or on-prem 
+• ADF is cloud-based ETL tool
 	
 	
 Components of ADF :
