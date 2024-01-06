@@ -42,7 +42,7 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
  	- There are 3 types - Scheduling Trigger, Event-Based Trigger, Tumbling Window Trigger 
 
 
-## Implementation to Check :
+## Implementation to Check Components:
 
 
 1. Go to portal.azure.com
@@ -72,3 +72,5 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 	We then create pipelines on the same way 
 	
 	We later schedule them using Add Trigger
+
+![image](https://github.com/Pavan-1997/Azure_Data-Factory/assets/32020205/636bff12-632f-46ee-99cf-75efb0d4969c)
