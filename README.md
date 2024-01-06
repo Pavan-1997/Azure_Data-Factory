@@ -50,13 +50,13 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 
 2. Search and open Data Factory ->
 
-Select your Subscription
-
-Select your Resource group
-
-Give name 
-
-Click on Review + Create
+	Select your Subscription
+	
+	Select your Resource group
+	
+	Give name 
+	
+	Click on Review + Create
 
 
 3. Click on Launch studio 
