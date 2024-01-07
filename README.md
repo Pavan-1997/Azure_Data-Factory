@@ -73,9 +73,9 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 	
 	Click on Containers -> Click on + Conatiner -> Name - source -> Click on Create -> Upload the Folder along with file
 
- ![SOURCE-TEST](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/99827221-f2c8-4cc2-bafb-63b5ea545cf3)
+	![SOURCE-TEST](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/99827221-f2c8-4cc2-bafb-63b5ea545cf3)
 
-	Click on Containers -> Click on + Conatiner -> Name - sink -> Click on Create -> Upload the Folder  
+     	Click on Containers -> Click on + Conatiner -> Name - sink -> Click on Create -> Upload the Folder  
 
 
 4. Now go back to the ADF Studio 
