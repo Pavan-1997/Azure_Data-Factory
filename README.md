@@ -50,49 +50,49 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 
 2. Search and open Data Factory ->
 
-Select your Subscription
-
-Select your Resource group
-
-Give name
-
-Click on Review + Create
-
-Click on Launch studio
+	Select your Subscription
+	
+	Select your Resource group
+	
+	Give name
+	
+	Click on Review + Create
+	
+	Click on Launch studio
 
 
 3. Search and open Storage accounts -> Click on Create
 
-Select your Subscription
-
-Select your Resource group
-
-Give Storage account name
-
-Click on Review + Create
-
-Click on Containers -> Click on + Conatiner -> Name - source -> Click on Create -> Upload the Folder along with file
-
-Click on Containers -> Click on + Conatiner -> Name - sink -> Click on Create -> Upload the Folder  
+	Select your Subscription
+	
+	Select your Resource group
+	
+	Give Storage account name
+	
+	Click on Review + Create
+	
+	Click on Containers -> Click on + Conatiner -> Name - source -> Click on Create -> Upload the Folder along with file
+	
+	Click on Containers -> Click on + Conatiner -> Name - sink -> Click on Create -> Upload the Folder  
 
 
 4. Now go back to the ADF Studio 
 
-Click on Author -> Pipelines -> 3 dots -> New pipeline -> Activity - Copy data
-
-Source -> Ciick on + New -> Select Azure Blob Storage -> Format - Binary -. Click on Continue -> Give it a name -> Click + New Linked service -> 
-
-Give it name
-
-Select your subscription account
-
-Now select your Storage account created earlier
-
-Click on Test connection 
-
-Click on Create
-
-Browse the test.txt file and click on OK
+	Click on Author -> Pipelines -> 3 dots -> New pipeline -> Activity - Copy data
+	
+	Source -> Ciick on + New -> Select Azure Blob Storage -> Format - Binary -. Click on Continue -> Give it a name -> Click + New Linked service -> 
+	
+	Give it name
+	
+	Select your subscription account
+	
+	Now select your Storage account created earlier
+	
+	Click on Test connection 
+	
+	Click on Create
+	
+	Browse the test.txt file and click on OK
 
 
 5. Similarly do it for Sink folder by using the same Linked service  but different dataset name
