@@ -1,6 +1,6 @@
 # Azure_Data-Factory_Basic
 
-ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
+• ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 
 • ADF - Is an ETL tools available in AZ 
 
