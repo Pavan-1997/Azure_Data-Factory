@@ -42,7 +42,7 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
  	- There are 3 types - Scheduling Trigger, Event-Based Trigger, Tumbling Window Trigger 
 
 
-## Implementation to Check Components:
+## Implementation of Copy Acitivity:
 
 
 1. Go to portal.azure.com
@@ -50,29 +50,58 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 
 2. Search and open Data Factory ->
 
-	Select your Subscription
-	
-	Select your Resource group
-	
-	Give name 
-	
-	Click on Review + Create
+Select your Subscription
+
+Select your Resource group
+
+Give name
+
+Click on Review + Create
+
+Click on Launch studio
 
 
-3. Click on Launch studio 
+3. Search and open Storage accounts -> Click on Create
 
-	Go to Manage -> Connections -> Integration runtimes -> (By default Auto-Resolve Integration runtime is created which can't be customized)
-	
-	Click on New -> Azure, Self-Hosted -> Click on Continue -> (Here you can either use Azure or Self-Hosted)
-	
-	We create Linked services for every Integration Runtime
-	
-	We create Datasets for every Linked Service by going to Author -> Datasets -> 3 dots -> Select the data type with Linked service associated with it 
-	
-	We then create pipelines on the same way 
-	
-	We later schedule them using Add Trigger
+Select your Subscription
 
-![image](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/c8942210-dd84-40d2-9eb0-41dfc841cbc6)
+Select your Resource group
 
-![image](https://github.com/Pavan-1997/Azure_Data-Factory/assets/32020205/636bff12-632f-46ee-99cf-75efb0d4969c)
+Give Storage account name
+
+Click on Review + Create
+
+Click on Containers -> Click on + Conatiner -> Name - source -> Click on Create -> Upload the Folder along with file
+
+Click on Containers -> Click on + Conatiner -> Name - sink -> Click on Create -> Upload the Folder  
+
+
+4. Now go back to the ADF Studio 
+
+Click on Author -> Pipelines -> 3 dots -> New pipeline -> Activity - Copy data
+
+Source -> Ciick on + New -> Select Azure Blob Storage -> Format - Binary -. Click on Continue -> Give it a name -> Click + New Linked service -> 
+
+Give it name
+
+Select your subscription account
+
+Now select your Storage account created earlier
+
+Click on Test connection 
+
+Click on Create
+
+Browse the test.txt file and click on OK
+
+
+5. Similarly do it for Sink folder by using the same Linked service  but different dataset name
+
+
+6. Now click on Publish all -> 	Click on Publish
+
+
+7. Now click on Add trigger - Click on Trigger now 
+
+
+8. Now the file is copied to the sink container from the source container 
