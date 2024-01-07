@@ -86,8 +86,6 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 	
 	Give it name
 
-	![INPUT-TEST](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/7b176d69-eb0e-4b02-900c-87e796616155)
-
 	Select your subscription account
 	
 	Now select your Storage account created earlier
