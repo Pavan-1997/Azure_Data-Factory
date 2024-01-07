@@ -90,14 +90,18 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 	
 	Now select your Storage account created earlier
 	
-	Click on Test connection 
-	
+	Click on Test connection
+
+	![INPUT-TEST](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/d0de0895-9f14-4504-9d50-0edd3b3f25ef)
+
 	Click on Create
 	
 	Browse the test.txt file and click on OK
 
 
-5. Similarly do it for Sink folder by using the same Linked service  but different dataset name
+6. Similarly do it for the Sink folder by using the same Linked service  but a different dataset name
+
+![ADF-PIPELINE](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/a4828d09-0db8-4e9e-82e3-9a06f9216084)
 
 
 6. Now click on Publish all -> 	Click on Publish
@@ -107,3 +111,10 @@ ETL TOOLS - AZURE DATA FACTORY (NO-CODE), AZURE DATA BRUCKS (CODE)
 
 
 8. Now the file is copied to the sink container from the source container 
+
+![PIPELINE-RUN](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/447f6979-8742-4716-8b6c-3aa6890fe2ab)
+
+![SINK-OUTPUT](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/e68aba14-d719-4898-9431-ffc4610d302f)
+
+![ADF-PIPELINE2](https://github.com/Pavan-1997/Azure_Data-Factory_Basic/assets/32020205/c9baa865-4858-4d22-b14e-abfe598cd96b)
+
